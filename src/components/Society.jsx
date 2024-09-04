@@ -63,7 +63,7 @@ const Society = () => {
 
 
     return (
-        <div className={`mt-7 mb-7 min-h-[320px] ${isMenuOpen? "pointer-events-auto" : "pointer-events-none"} flex items-center flex-col`} onClick={()=> dispatch(toggleMenu())}>
+        <div className={`mt-7 mb-7 min-h-[320px] ${isMenuOpen? "pointer-events-auto" : "pointer-events-none"} flex items-center flex-col`} >
             <div className=''>
                 <select id="options" value={selectedOption} className=' bg-[#e65050] rounded-2xl text-white py-3 px-4 ' onChange={handleChange}>
                     <option className='bg-white font-bold text-black' value="">Select a Board/Club/Society</option>
